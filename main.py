@@ -23,7 +23,7 @@ while finish == "yes":
     text = input("Type your message:\n").lower()
     shift = int(input("Type the shift number:\n"))
     caesar(text=text,shift_amount=shift,cipher_direction=direction)
-    finish = input("Type 'yes' if you want to go again. Otherwise type 'no'.").lower()
+    finish = input("Type 'yes' if you want to go again. Otherwise type 'no'.  ").lower()
     print(finish)
 
 print("Goodbye")
